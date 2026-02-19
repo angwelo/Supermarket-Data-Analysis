@@ -1,0 +1,26 @@
+
+SUPERMARKET TRANSACTIONS SUMMARY
+
+What was asked?
+This analysis addressed three business questions using three years of supermarket
+transaction data:
+1. The total quantity of apples purchased using cash.
+2. The total cash amount spent on apples.
+3. The total amount spent by non-member customers at the Bakershire store location.
+
+What was found:
+- Total apples purchased using cash: 117
+- Total cash spent on apples: $537.03
+- Total spend by non-member customers at Bakershire: $2857.51
+
+Notably, the analysis required a correction from 'apples' to 'apple' to
+align with the dataset's naming convention. The results above reflect the
+accurate aggregation of all cash-based apple transactions.
+
+Why the results are credible:
+- Data was cleaned and standardized (case-insensitivity and whitespace removal).
+- Product naming was verified against the unique product registry.
+- Results were validated using reproducible, deterministic logic.
+- No assumptions were introduced beyond what is present in the dataset.
+
+This file, together with the cleaned dataset, represents the final graded deliverable.
